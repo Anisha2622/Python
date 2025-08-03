@@ -3,3 +3,6 @@ ep2 = {222:67, 566: 90}
 
 ep1.clear()
 print(ep1)
+
+empt ={}
+print(empt) # print empty dictionary
