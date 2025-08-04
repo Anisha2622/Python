@@ -1,0 +1,14 @@
+python -a venv myenv 
+    # create a virtual environment
+myenv\Scripts\activate.ps 
+# activate the virtual environment
+deactivate 
+# deactivate the virtual environment
+
+pip freez > requirement.txt
+# installed package and their versions will be saved in requirement.txt file
+pip install -r requirement.txt
+# install all packages from requirement.txt file
+
+import pandas as pd
+print (pd.__version__)  # prints the version of pandas library
