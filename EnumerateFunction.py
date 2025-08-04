@@ -12,3 +12,9 @@ for index, mark in enumerate(marks):
 fruits = ['apple', 'banana', 'cherry']
 for index, fruit in enumerate(fruits):
     print(index, fruit)
+
+# loop over a list and print the index and value of each item(starting from index 1)
+
+fruits = ['apple', 'banana', 'cherry']
+for index, fruit in enumerate(fruits, start=1):
+    print(index, fruit)
