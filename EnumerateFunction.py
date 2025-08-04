@@ -8,3 +8,7 @@ for index, mark in enumerate(marks):
 # enumerate () function adds a counter to an iterable and returns it in a form of enumerate object.
 # This enumerate object can then be used directly in a for loop or converted into a list of tuples
 #use for loop to iterate over the enumerate object
+
+fruits = ['apple', 'banana', 'cherry']
+for index, fruit in enumerate(fruits):
+    print(index, fruit)
