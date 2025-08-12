@@ -11,7 +11,7 @@ class  employee:
     def showDetails(self):
         print(f"The name of employee: {self.id} is {self.name}")
 
-class Programmer(Employee):
+class Programmer(employee):
     def showLanguage(self):
         print("The default language of programmer is Python")
         
